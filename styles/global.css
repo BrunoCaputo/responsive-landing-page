@@ -24,8 +24,8 @@
   --brand-color-secondary: #fc4a1a;
   --brand-gradient: linear-gradient(
     90deg,
-    --brand-color-secondary 0%,
-    --brand-color-primary 100%
+    var(--brand-color-secondary) 0%,
+    var(--brand-color-primary) 100%
   );
 
   --ff-sans: "Inter", system-ui, sans-serif;
